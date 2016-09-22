@@ -434,6 +434,11 @@ public class Utils {
                         ||ori.contains("Scrollbar")||ori.contains("Directional Li")||ori.contains("Sphere (")||ori.contains("Thruster (")
                         ||ori.contains("State ")||ori.contains("Sliding Area")||ori.contains("StageText")||ori.contains("Cube (")
                         ||ori.contains("Pole (")||ori.contains("Floor (")||ori.contains("Directional light")||ori.contains("MasterCube")
+                        ||ori.contains("Bip0")||ori.contains("Timer")||ori.contains("Chap Txt")||ori.contains("Canvas (")
+                        ||ori.contains("Audio ")||ori.contains("TAPE 0")||ori.contains("Layout")||ori.contains("Sparks")
+                        ||ori.contains("LampA")||ori.contains("PipeRingA")||ori.contains("Note (")||ori.contains("Shelf (")
+                        ||ori.contains("LampA")||ori.contains("Floor1x2")||ori.contains("Wheelchair")||ori.contains("PannelLight")
+                        ||ori.contains("Prefab")||ori.contains("Audio ")||ori.contains("MainLight")||ori.contains("LoadingSystemPrfab")
                         ||ori.contains(".UI")||ori.contains("BarUnit")||ori.contains("UnityEngine")||ori.contains("BarUnit")
                         ||ori.contains("Combined Mesh")||ori.contains("LightSwitch")||ori.contains("Point Light")||ori.contains("BookB")
                         ||ori.contains("Outlet")||ori.contains("New Text")||ori.contains("Main Camera")||ori.contains("New Text")
@@ -444,7 +449,7 @@ public class Utils {
                         ||ori.contains("Panel (")||ori.contains("Handle Slide")||ori.contains("Point light")||ori.contains("Cutscene Trigger")
                         ||ori.contains("Director Group")||ori.contains("Audio Track")||ori.contains("Game Object")||ori.contains("RoadBaseEmpty")
                         ||ori.contains("Plane (")||ori.contains("AirDuct")||ori.contains("Combo Butto")||ori.contains("Shot Track")
-                /**********************************************************************************************/
+                        /**********************************************************************************************/
                         ||ori.contains("Image (")||ori.contains("Text (")||ori.contains("PlatformTD")||ori.contains("PanelPauseMenu")
                         ||ori.contains("Bip001")||ori.contains("BusStopListItem")||ori.contains("VLine")||ori.contains("TextLine")
                         ||ori.contains("Title 1")||ori.contains("BusStopPref")||ori.contains("GameObject")||ori.contains("TextLine")
@@ -456,7 +461,7 @@ public class Utils {
                         ||ori.startsWith("2")||ori.startsWith("4")||ori.startsWith("6")||ori.startsWith("8")||ori.startsWith("0")
                         /*********************************************************************************/
 
-||ori.split(" ").length<=1||ori.startsWith(" ")||ori.contains("AdColony")
+                        ||ori.split(" ").length<=1||ori.startsWith(" ")||ori.contains("AdColony")
                         ||ori.startsWith("a")||ori.startsWith("s")||ori.startsWith("d")||ori.startsWith("f")
                         ||ori.startsWith("g")||ori.startsWith("h")||ori.startsWith("j")||ori.startsWith("k")
                         ||ori.startsWith("l")||ori.startsWith("q")||ori.startsWith("w")||ori.startsWith("e")
