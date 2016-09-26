@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Class-Path: json-20140107.jar
+Main-Class: Unity3D.cu_bin
+

@@ -14,10 +14,10 @@ import java.io.RandomAccessFile;
 public class cu_bin {
 
     public static void main(String[] args) throws Exception {
-        String path = "D:\\工作目录\\pizi皮茨菲尔德\\res\\翻译好的\\fail1\\level8_.txt";
+//        String path = "I:\\code\\countnum\\out\\artifacts\\countNum_jar\\level2_.txt";
 
 //        packMain(path);
-        pack(path);
+        pack(args[0]);
     }
 
 
@@ -55,7 +55,8 @@ public class cu_bin {
             throw new Exception("ERROR: data文件不存在："+path.split("_.txt")[0]);
         }
         System.out.println(path);
-        RandomAccessFile fout = new RandomAccessFile(new File(path.split("_.txt")[0]+"_out"),"rw");
+        File out_file = new File(path.split("_.txt")[0]+"_out");
+        RandomAccessFile fout = new RandomAccessFile(out_file,"rw");
 
         RandomAccessFile finp = new RandomAccessFile(data_file,"r");
         byte[] b = new byte[4096];
@@ -70,13 +71,16 @@ public class cu_bin {
             JSONObject parent_jo = new JSONObject(Utils.JaUtils.fileToString(path));
             JSONArray items = parent_jo.getJSONArray("items");
 
-
+            //文本是不是空的
+            boolean empty_flag = true;
             for (int i = 0; i < items.length(); i++) {
                 JSONObject jo = items.getJSONObject(i);
                 String fanyi =jo.getString("cz");
                 if (fanyi.equals("")){
                     continue;
                 }
+
+                empty_flag = false;
                 byte[] fanyi_byte = fanyi.getBytes();
                 int enLen = jo.getInt("blen");
                 Long pos = jo.getLong("pos");
@@ -84,6 +88,9 @@ public class cu_bin {
                     finp.close();
                     pack_fail(data_file);
                     System.out.println("ERROR：字符串长了"+(fanyi_byte.length-enLen)+"在："+pos+"\n"+fanyi);
+                    System.out.println(out_file.exists());
+                    fout.close();
+                    out_file.delete();
                     break;
 //                    throw new Exception("ERROR：字符串太长在："+pos+"\n"+fanyi);
                 }
@@ -97,10 +104,19 @@ public class cu_bin {
 
 
             }
+
             fout.close();
+            if (empty_flag){
+                out_file.delete();
+                data_file.delete();
+                (new File(path)).delete();
+
+            }
         }catch (JSONException e){
             finp.close();
             fout.close();
+            out_file.delete();
+            System.out.println("Json格式有问题");
             pack_fail(data_file);
 
         }
