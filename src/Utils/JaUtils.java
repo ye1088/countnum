@@ -14,12 +14,12 @@ public class JaUtils {
     public static void main(String[] args) throws IOException {
 
 
-        filterEmtyObject("D:\\工作目录\\chufa出发！英雄基地\\RES\\修改\\2\\txt\\il\\jp\\Assembly-CSharp.dll.il_out");
+//        filterEmtyObject("D:\\工作目录\\chufa出发！英雄基地\\RES\\修改\\2\\txt\\il\\jp\\Assembly-CSharp.dll.il_out");
 
-//        String ja_path = "C:\\Users\\Administrator\\Desktop\\记录\\zh\\libApplicationMain.so(2,43c0a0,03adac)_.txt";
+        String ja_path = "D:\\工作目录\\xingsheng兴盛帝国\\res\\提取的\\txt\\app\\il\\jp\\Assembly-CSharp.dll.il_out";
 //        filterEmtyObject(ja_path);
-
-
+//        filterIsnotJa("D:\\工作目录\\xingsheng兴盛帝国\\res\\提取的\\Resource\\txt\\bin\\Data\\Managed\\il\\jp\\Assembly-CSharp.dll.il_out");
+        filterIsnotJa_jsonArray(ja_path);
 
     }
 
@@ -84,5 +84,47 @@ public class JaUtils {
         }
 
 
+    }
+
+    /**
+     * 过滤掉不是日文的元素
+     * @param ja_path
+     * @throws IOException
+     */
+    public static void filterIsnotJa(String ja_path) throws IOException{
+        JSONArray json = new JSONArray(fileToString(ja_path));
+        for (int i = 0; i < json.length(); i++) {
+            JSONObject jo =  json.getJSONObject(i);
+            String ori = jo.getString("ori");
+            if (!whatLanguage.containJp(ori)){
+                json.remove(i);
+                i--;
+            }
+        }
+        BufferedWriter bw = new BufferedWriter(new FileWriter(ja_path+"_"));
+        bw.write(json.toString());
+        bw.flush();
+        bw.close();
+    }
+
+    /**
+     * 过滤掉不是日文的元素  针对jasonarray的
+     * @param ja_path
+     * @throws IOException
+     */
+    public static void filterIsnotJa_jsonArray(String ja_path) throws IOException{
+        JSONArray json = new JSONArray(fileToString(ja_path));
+        for (int i = 0; i < json.length(); i++) {
+            JSONObject jo =  json.getJSONObject(i);
+            String ori = jo.getString("ori");
+            if (!whatLanguage.containJp(ori)){
+                json.remove(i);
+                i--;
+            }
+        }
+        BufferedWriter bw = new BufferedWriter(new FileWriter(ja_path+"_"));
+        bw.write(json.toString());
+        bw.flush();
+        bw.close();
     }
 }

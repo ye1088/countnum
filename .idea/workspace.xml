@@ -26,8 +26,9 @@
         <entry file="file://$PROJECT_DIR$/src/Utils/Utils.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="1349" column="0" selection-start-line="1349" selection-start-column="0" selection-end-line="1349" selection-end-column="0" />
+              <caret line="592" column="44" selection-start-line="592" selection-start-column="44" selection-end-line="592" selection-end-column="44" />
               <folding>
+                <element signature="imports" expanded="false" />
                 <element signature="docComment;class#Utils#0" expanded="false" />
                 <element signature="docComment;method#fileToString#0;class#Utils#0" expanded="false" />
                 <element signature="method#makeCrcTable#0;class#Utils#0" expanded="false" />
@@ -41,7 +42,6 @@
                 <element signature="method#insertSpace#0;class#Utils#0" expanded="false" />
                 <element signature="e#14693#14743#0" expanded="false" />
                 <element signature="method#filterIlJsonTextEn#0;class#Utils#0" expanded="false" />
-                <element signature="method#filterSmaliJsonTxt#0;class#Utils#0" expanded="false" />
                 <element signature="method#filterSmaliJsonEndTxt#0;class#Utils#0" expanded="false" />
                 <element signature="method#jsonFormatForSmali#0;class#Utils#0" expanded="false" />
                 <element signature="method#jsonFormat#0;class#Utils#0" expanded="false" />
@@ -66,17 +66,29 @@
         <entry file="file://$PROJECT_DIR$/src/Android/Mu_Biao.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="306" column="27" selection-start-line="306" selection-start-column="27" selection-end-line="306" selection-end-column="27" />
+              <caret line="97" column="5" selection-start-line="90" selection-start-column="0" selection-end-line="97" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="whatLanguage.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cu_bin.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Unity3D/cu_bin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.864">
+              <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="whatLanguage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Utils/whatLanguage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -86,8 +98,10 @@
         <entry file="file://$PROJECT_DIR$/src/Utils/JaUtils.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+              <caret line="86" column="5" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
+              <folding>
+                <element signature="method#fileToString#0;class#JaUtils#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -97,9 +111,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="601" column="44" selection-start-line="601" selection-start-column="44" selection-end-line="601" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -109,9 +121,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -132,10 +142,8 @@
         <entry file="file://$PROJECT_DIR$/src/Test.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+              <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -164,14 +172,15 @@
         <option value="$PROJECT_DIR$/src/someTest.java" />
         <option value="$PROJECT_DIR$/src/guanjunjingli/Test.java" />
         <option value="$PROJECT_DIR$/src/guanjunjingli/Utils.java" />
-        <option value="$PROJECT_DIR$/src/Test.java" />
         <option value="$PROJECT_DIR$/src/Android/DisplayMetrics.java" />
         <option value="$PROJECT_DIR$/src/Android/getApkSign.java" />
         <option value="$PROJECT_DIR$/src/GameDroid.java" />
         <option value="$PROJECT_DIR$/src/Utils/CodeChange.java" />
-        <option value="$PROJECT_DIR$/src/Utils/Utils.java" />
         <option value="$PROJECT_DIR$/src/Android/Mu_Biao.java" />
+        <option value="$PROJECT_DIR$/src/Test.java" />
+        <option value="$PROJECT_DIR$/src/Utils/Utils.java" />
         <option value="$PROJECT_DIR$/src/Utils/JaUtils.java" />
+        <option value="$PROJECT_DIR$/src/Unity3D/cu_bin.java" />
       </list>
     </option>
   </component>
@@ -183,9 +192,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
+    <option name="x" value="300" />
+    <option name="y" value="143" />
+    <option name="width" value="1318" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -213,6 +222,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -259,31 +269,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="countNum" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="countnum" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Android" />
+              <option name="myItemId" value="Unity3D" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
@@ -308,50 +299,10 @@
       <recent name="Android" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JaUtils">
+  <component name="RunManager" selected="Application.cu_bin">
     <configuration default="false" name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Test" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="countNum" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="guanjunjingli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="guanjunjingli.Test" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="countNum" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="getApkSign" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Android.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Android.getApkSign" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -392,6 +343,46 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="Utils.JaUtils" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="countNum" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Mu_Biao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Android.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Android.Mu_Biao" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="countNum" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="cu_bin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Unity3D.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Unity3D.cu_bin" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -650,18 +641,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.Test" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Test (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Application.getApkSign" />
-      <item index="3" class="java.lang.String" itemvalue="Application.CodeChange" />
-      <item index="4" class="java.lang.String" itemvalue="Application.JaUtils" />
+      <item index="1" class="java.lang.String" itemvalue="Application.CodeChange" />
+      <item index="2" class="java.lang.String" itemvalue="Application.JaUtils" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Mu_Biao" />
+      <item index="4" class="java.lang.String" itemvalue="Application.cu_bin" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.JaUtils" />
-        <item index="1" class="java.lang.String" itemvalue="Application.CodeChange" />
+        <item index="0" class="java.lang.String" itemvalue="Application.cu_bin" />
+        <item index="1" class="java.lang.String" itemvalue="Application.JaUtils" />
         <item index="2" class="java.lang.String" itemvalue="Application.Test" />
-        <item index="3" class="java.lang.String" itemvalue="Application.getApkSign" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Test (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Mu_Biao" />
+        <item index="4" class="java.lang.String" itemvalue="Application.CodeChange" />
       </list>
     </recent_temporary>
   </component>
@@ -679,26 +670,26 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="300" y="143" width="1318" height="1056" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3284055" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.50208336" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28933474" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40971488" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24166666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35560676" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17001057" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3284055" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -760,21 +751,12 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Utils/Utils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="imports" expanded="false" />
             <element signature="docComment;class#Utils#0" expanded="false" />
             <element signature="docComment;method#fileToString#0;class#Utils#0" expanded="false" />
             <element signature="method#makeCrcTable#0;class#Utils#0" expanded="false" />
@@ -788,7 +770,6 @@
             <element signature="method#insertSpace#0;class#Utils#0" expanded="false" />
             <element signature="e#14693#14743#0" expanded="false" />
             <element signature="method#filterIlJsonTextEn#0;class#Utils#0" expanded="false" />
-            <element signature="method#filterSmaliJsonTxt#0;class#Utils#0" expanded="false" />
             <element signature="method#filterSmaliJsonEndTxt#0;class#Utils#0" expanded="false" />
             <element signature="method#jsonFormatForSmali#0;class#Utils#0" expanded="false" />
             <element signature="method#jsonFormat#0;class#Utils#0" expanded="false" />
@@ -812,9 +793,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -823,6 +802,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="imports" expanded="false" />
             <element signature="docComment;class#Utils#0" expanded="false" />
             <element signature="docComment;method#fileToString#0;class#Utils#0" expanded="false" />
             <element signature="method#makeCrcTable#0;class#Utils#0" expanded="false" />
@@ -836,7 +816,6 @@
             <element signature="method#insertSpace#0;class#Utils#0" expanded="false" />
             <element signature="e#14693#14743#0" expanded="false" />
             <element signature="method#filterIlJsonTextEn#0;class#Utils#0" expanded="false" />
-            <element signature="method#filterSmaliJsonTxt#0;class#Utils#0" expanded="false" />
             <element signature="method#filterSmaliJsonEndTxt#0;class#Utils#0" expanded="false" />
             <element signature="method#jsonFormatForSmali#0;class#Utils#0" expanded="false" />
             <element signature="method#jsonFormat#0;class#Utils#0" expanded="false" />
@@ -860,9 +839,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -871,6 +848,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="imports" expanded="false" />
             <element signature="docComment;class#Utils#0" expanded="false" />
             <element signature="docComment;method#fileToString#0;class#Utils#0" expanded="false" />
             <element signature="method#makeCrcTable#0;class#Utils#0" expanded="false" />
@@ -884,7 +862,6 @@
             <element signature="method#insertSpace#0;class#Utils#0" expanded="false" />
             <element signature="e#14693#14743#0" expanded="false" />
             <element signature="method#filterIlJsonTextEn#0;class#Utils#0" expanded="false" />
-            <element signature="method#filterSmaliJsonTxt#0;class#Utils#0" expanded="false" />
             <element signature="method#filterSmaliJsonEndTxt#0;class#Utils#0" expanded="false" />
             <element signature="method#jsonFormatForSmali#0;class#Utils#0" expanded="false" />
             <element signature="method#jsonFormat#0;class#Utils#0" expanded="false" />
@@ -908,9 +885,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -919,6 +894,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="imports" expanded="false" />
             <element signature="docComment;class#Utils#0" expanded="false" />
             <element signature="docComment;method#fileToString#0;class#Utils#0" expanded="false" />
             <element signature="method#makeCrcTable#0;class#Utils#0" expanded="false" />
@@ -932,7 +908,6 @@
             <element signature="method#insertSpace#0;class#Utils#0" expanded="false" />
             <element signature="e#14693#14743#0" expanded="false" />
             <element signature="method#filterIlJsonTextEn#0;class#Utils#0" expanded="false" />
-            <element signature="method#filterSmaliJsonTxt#0;class#Utils#0" expanded="false" />
             <element signature="method#filterSmaliJsonEndTxt#0;class#Utils#0" expanded="false" />
             <element signature="method#jsonFormatForSmali#0;class#Utils#0" expanded="false" />
             <element signature="method#jsonFormat#0;class#Utils#0" expanded="false" />
@@ -956,9 +931,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -967,6 +940,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="433" column="46" selection-start-line="433" selection-start-column="23" selection-end-line="433" selection-end-column="46" />
           <folding>
+            <element signature="imports" expanded="false" />
             <element signature="docComment;class#Utils#0" expanded="false" />
             <element signature="docComment;method#fileToString#0;class#Utils#0" expanded="false" />
             <element signature="method#makeCrcTable#0;class#Utils#0" expanded="false" />
@@ -980,7 +954,6 @@
             <element signature="method#insertSpace#0;class#Utils#0" expanded="false" />
             <element signature="e#14693#14743#0" expanded="false" />
             <element signature="method#filterIlJsonTextEn#0;class#Utils#0" expanded="false" />
-            <element signature="method#filterSmaliJsonTxt#0;class#Utils#0" expanded="false" />
             <element signature="method#filterSmaliJsonEndTxt#0;class#Utils#0" expanded="false" />
             <element signature="method#jsonFormatForSmali#0;class#Utils#0" expanded="false" />
             <element signature="method#jsonFormat#0;class#Utils#0" expanded="false" />
@@ -1004,9 +977,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1015,6 +986,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="imports" expanded="false" />
             <element signature="docComment;class#Utils#0" expanded="false" />
             <element signature="docComment;method#fileToString#0;class#Utils#0" expanded="false" />
             <element signature="method#makeCrcTable#0;class#Utils#0" expanded="false" />
@@ -1028,7 +1000,6 @@
             <element signature="method#insertSpace#0;class#Utils#0" expanded="false" />
             <element signature="e#14693#14743#0" expanded="false" />
             <element signature="method#filterIlJsonTextEn#0;class#Utils#0" expanded="false" />
-            <element signature="method#filterSmaliJsonTxt#0;class#Utils#0" expanded="false" />
             <element signature="method#filterSmaliJsonEndTxt#0;class#Utils#0" expanded="false" />
             <element signature="method#jsonFormatForSmali#0;class#Utils#0" expanded="false" />
             <element signature="method#jsonFormat#0;class#Utils#0" expanded="false" />
@@ -1052,9 +1023,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1063,6 +1032,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="imports" expanded="false" />
             <element signature="docComment;class#Utils#0" expanded="false" />
             <element signature="docComment;method#fileToString#0;class#Utils#0" expanded="false" />
             <element signature="method#makeCrcTable#0;class#Utils#0" expanded="false" />
@@ -1076,7 +1046,6 @@
             <element signature="method#insertSpace#0;class#Utils#0" expanded="false" />
             <element signature="e#14693#14743#0" expanded="false" />
             <element signature="method#filterIlJsonTextEn#0;class#Utils#0" expanded="false" />
-            <element signature="method#filterSmaliJsonTxt#0;class#Utils#0" expanded="false" />
             <element signature="method#filterSmaliJsonEndTxt#0;class#Utils#0" expanded="false" />
             <element signature="method#jsonFormatForSmali#0;class#Utils#0" expanded="false" />
             <element signature="method#jsonFormat#0;class#Utils#0" expanded="false" />
@@ -1100,9 +1069,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1111,6 +1078,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="imports" expanded="false" />
             <element signature="docComment;class#Utils#0" expanded="false" />
             <element signature="docComment;method#fileToString#0;class#Utils#0" expanded="false" />
             <element signature="method#makeCrcTable#0;class#Utils#0" expanded="false" />
@@ -1124,7 +1092,6 @@
             <element signature="method#insertSpace#0;class#Utils#0" expanded="false" />
             <element signature="e#14693#14743#0" expanded="false" />
             <element signature="method#filterIlJsonTextEn#0;class#Utils#0" expanded="false" />
-            <element signature="method#filterSmaliJsonTxt#0;class#Utils#0" expanded="false" />
             <element signature="method#filterSmaliJsonEndTxt#0;class#Utils#0" expanded="false" />
             <element signature="method#jsonFormatForSmali#0;class#Utils#0" expanded="false" />
             <element signature="method#jsonFormat#0;class#Utils#0" expanded="false" />
@@ -1148,9 +1115,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1159,6 +1124,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="imports" expanded="false" />
             <element signature="docComment;class#Utils#0" expanded="false" />
             <element signature="docComment;method#fileToString#0;class#Utils#0" expanded="false" />
             <element signature="method#makeCrcTable#0;class#Utils#0" expanded="false" />
@@ -1172,7 +1138,6 @@
             <element signature="method#insertSpace#0;class#Utils#0" expanded="false" />
             <element signature="e#14693#14743#0" expanded="false" />
             <element signature="method#filterIlJsonTextEn#0;class#Utils#0" expanded="false" />
-            <element signature="method#filterSmaliJsonTxt#0;class#Utils#0" expanded="false" />
             <element signature="method#filterSmaliJsonEndTxt#0;class#Utils#0" expanded="false" />
             <element signature="method#jsonFormatForSmali#0;class#Utils#0" expanded="false" />
             <element signature="method#jsonFormat#0;class#Utils#0" expanded="false" />
@@ -1196,9 +1161,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1207,6 +1170,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="imports" expanded="false" />
             <element signature="docComment;class#Utils#0" expanded="false" />
             <element signature="docComment;method#fileToString#0;class#Utils#0" expanded="false" />
             <element signature="method#makeCrcTable#0;class#Utils#0" expanded="false" />
@@ -1220,7 +1184,6 @@
             <element signature="method#insertSpace#0;class#Utils#0" expanded="false" />
             <element signature="e#14693#14743#0" expanded="false" />
             <element signature="method#filterIlJsonTextEn#0;class#Utils#0" expanded="false" />
-            <element signature="method#filterSmaliJsonTxt#0;class#Utils#0" expanded="false" />
             <element signature="method#filterSmaliJsonEndTxt#0;class#Utils#0" expanded="false" />
             <element signature="method#jsonFormatForSmali#0;class#Utils#0" expanded="false" />
             <element signature="method#jsonFormat#0;class#Utils#0" expanded="false" />
@@ -1244,9 +1207,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1255,6 +1216,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="434" column="50" selection-start-line="434" selection-start-column="50" selection-end-line="434" selection-end-column="50" />
           <folding>
+            <element signature="imports" expanded="false" />
             <element signature="docComment;class#Utils#0" expanded="false" />
             <element signature="docComment;method#fileToString#0;class#Utils#0" expanded="false" />
             <element signature="method#makeCrcTable#0;class#Utils#0" expanded="false" />
@@ -1268,7 +1230,6 @@
             <element signature="method#insertSpace#0;class#Utils#0" expanded="false" />
             <element signature="e#14693#14743#0" expanded="false" />
             <element signature="method#filterIlJsonTextEn#0;class#Utils#0" expanded="false" />
-            <element signature="method#filterSmaliJsonTxt#0;class#Utils#0" expanded="false" />
             <element signature="method#filterSmaliJsonEndTxt#0;class#Utils#0" expanded="false" />
             <element signature="method#jsonFormatForSmali#0;class#Utils#0" expanded="false" />
             <element signature="method#jsonFormat#0;class#Utils#0" expanded="false" />
@@ -1306,9 +1267,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1317,6 +1276,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="imports" expanded="false" />
             <element signature="docComment;class#Utils#0" expanded="false" />
             <element signature="docComment;method#fileToString#0;class#Utils#0" expanded="false" />
             <element signature="method#makeCrcTable#0;class#Utils#0" expanded="false" />
@@ -1330,7 +1290,6 @@
             <element signature="method#insertSpace#0;class#Utils#0" expanded="false" />
             <element signature="e#14693#14743#0" expanded="false" />
             <element signature="method#filterIlJsonTextEn#0;class#Utils#0" expanded="false" />
-            <element signature="method#filterSmaliJsonTxt#0;class#Utils#0" expanded="false" />
             <element signature="method#filterSmaliJsonEndTxt#0;class#Utils#0" expanded="false" />
             <element signature="method#jsonFormatForSmali#0;class#Utils#0" expanded="false" />
             <element signature="method#jsonFormat#0;class#Utils#0" expanded="false" />
@@ -1368,9 +1327,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1379,6 +1336,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="imports" expanded="false" />
             <element signature="docComment;class#Utils#0" expanded="false" />
             <element signature="docComment;method#fileToString#0;class#Utils#0" expanded="false" />
             <element signature="method#makeCrcTable#0;class#Utils#0" expanded="false" />
@@ -1392,7 +1350,6 @@
             <element signature="method#insertSpace#0;class#Utils#0" expanded="false" />
             <element signature="e#14693#14743#0" expanded="false" />
             <element signature="method#filterIlJsonTextEn#0;class#Utils#0" expanded="false" />
-            <element signature="method#filterSmaliJsonTxt#0;class#Utils#0" expanded="false" />
             <element signature="method#filterSmaliJsonEndTxt#0;class#Utils#0" expanded="false" />
             <element signature="method#jsonFormatForSmali#0;class#Utils#0" expanded="false" />
             <element signature="method#jsonFormat#0;class#Utils#0" expanded="false" />
@@ -1416,9 +1373,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1427,6 +1382,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
           <folding>
+            <element signature="imports" expanded="false" />
             <element signature="docComment;class#Utils#0" expanded="false" />
             <element signature="docComment;method#fileToString#0;class#Utils#0" expanded="false" />
             <element signature="method#makeCrcTable#0;class#Utils#0" expanded="false" />
@@ -1440,7 +1396,6 @@
             <element signature="method#insertSpace#0;class#Utils#0" expanded="false" />
             <element signature="e#14693#14743#0" expanded="false" />
             <element signature="method#filterIlJsonTextEn#0;class#Utils#0" expanded="false" />
-            <element signature="method#filterSmaliJsonTxt#0;class#Utils#0" expanded="false" />
             <element signature="method#filterSmaliJsonEndTxt#0;class#Utils#0" expanded="false" />
             <element signature="method#jsonFormatForSmali#0;class#Utils#0" expanded="false" />
             <element signature="method#jsonFormat#0;class#Utils#0" expanded="false" />
@@ -1464,9 +1419,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1534,26 +1487,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Utils/CodeChange.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="601" column="44" selection-start-line="601" selection-start-column="44" selection-end-line="601" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GameDroid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/guanjunjingli/Utils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1574,18 +1507,17 @@
     <entry file="file://$PROJECT_DIR$/src/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Utils/Utils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="1349" column="0" selection-start-line="1349" selection-start-column="0" selection-end-line="1349" selection-end-column="0" />
+          <caret line="592" column="44" selection-start-line="592" selection-start-column="44" selection-end-line="592" selection-end-column="44" />
           <folding>
+            <element signature="imports" expanded="false" />
             <element signature="docComment;class#Utils#0" expanded="false" />
             <element signature="docComment;method#fileToString#0;class#Utils#0" expanded="false" />
             <element signature="method#makeCrcTable#0;class#Utils#0" expanded="false" />
@@ -1599,7 +1531,6 @@
             <element signature="method#insertSpace#0;class#Utils#0" expanded="false" />
             <element signature="e#14693#14743#0" expanded="false" />
             <element signature="method#filterIlJsonTextEn#0;class#Utils#0" expanded="false" />
-            <element signature="method#filterSmaliJsonTxt#0;class#Utils#0" expanded="false" />
             <element signature="method#filterSmaliJsonEndTxt#0;class#Utils#0" expanded="false" />
             <element signature="method#jsonFormatForSmali#0;class#Utils#0" expanded="false" />
             <element signature="method#jsonFormat#0;class#Utils#0" expanded="false" />
@@ -1619,27 +1550,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Utils/whatLanguage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GameDroid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Utils/CodeChange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="601" column="44" selection-start-line="601" selection-start-column="44" selection-end-line="601" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Utils/JaUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="86" column="5" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
+          <folding>
+            <element signature="method#fileToString#0;class#JaUtils#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Android/Mu_Biao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="306" column="27" selection-start-line="306" selection-start-column="27" selection-end-line="306" selection-end-column="27" />
+          <caret line="97" column="5" selection-start-line="90" selection-start-column="0" selection-end-line="97" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Utils/whatLanguage.java">
+    <entry file="file://$PROJECT_DIR$/src/Unity3D/cu_bin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.864">
+          <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

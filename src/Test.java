@@ -19,7 +19,7 @@ public class Test {
         //iljsonarray过滤
 //        Utils.filterIlJsonTextEn();
         //这个是二进制的jsonobject
-        Utils.filterJsonTextEn();
+//        Utils.filterJsonTextEn();
         //将提取出来的json文本中的ori中的文本拷贝到cz那列里
 //        Utils.copyOriToCz("C:\\Users\\Administrator\\Desktop\\记录\\en");
         //在一句话中插入想要的字符
@@ -33,7 +33,7 @@ public class Test {
 //        Utils.sortJsonObjectFile();
 //        Utils.exchangeIlJsonPos();
         //这个是对smali文本资源过滤
-//        Utils.filterSmaliJsonTxt();
+        Utils.filterSmaliJsonTxt();
         //去掉翻译好之后没有用的东西
 //        Utils.filterSmaliJsonEndTxt();
         /**

@@ -10,8 +10,9 @@ import java.io.*;
 public class Mu_Biao {
 
     public static void main(String[] args) throws Exception {
-        String path = "D:\\工作目录\\lizai立在地下城的墓标\\res\\修改\\1\\bin";
-        dumpMain(path);
+        String path = "D:\\工作目录\\lizai立在地下城的墓标\\res\\修改\\1\\1-1\\修改2（9-22）";
+//        dumpMain(path);
+        packMain(path);
 
     }
 
@@ -25,6 +26,10 @@ public class Mu_Biao {
         File[] files = dir.listFiles();
         for (File file:files
              ) {
+            if (file.isDirectory()){
+                packMain(file.getAbsolutePath());
+                continue;
+            }
             if (!file.getName().contains("_.txt")){
                 continue;
             }

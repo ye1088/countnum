@@ -590,7 +590,7 @@ public class Utils {
      * @return
      */
     public static void filterSmaliJsonTxt() throws IOException {
-        String path = "C:\\Users\\Administrator\\Desktop\\新建文件夹";
+        String path = "D:\\工作目录\\daxue大学足球经理";
         File file = new File(path);
         for (File f : file.listFiles()){
             JSONArray mJa = new JSONArray(fileToString(f.getAbsolutePath()));
