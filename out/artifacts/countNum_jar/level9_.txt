@@ -1,0 +1,28 @@
+{
+	"offset":0,
+	"items":
+	[
+		
+		{
+			"pos":324896,
+			"ori":"Good! I have nothing to hide. ",
+			"cz":"我没有什么隐瞒的.",
+			"clen":10,
+			"blen":30
+		},
+		{
+			"pos":325832,
+			"ori":"Only 1/16.{wi}\nBut I know a liar when I see one, I know when people are hiding things.",
+		"cz":"只有1/16.{wi}\n我能看出人们是否在撒谎,特别是在隐瞒什么事情的时候.",
+		"clen":28,
+		"blen":86
+		},
+		{
+			"pos":327800,
+			"ori":"I heard that all Chinese are crafty and tricky. How about you?",
+			"cz":"我听说所有中国人都很狡猾.你呢?",
+			"clen":20,
+			"blen":62
+		}
+	]
+}

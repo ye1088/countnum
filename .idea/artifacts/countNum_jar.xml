@@ -3,11 +3,11 @@
     <output-path>$PROJECT_DIR$/out/artifacts/countNum_jar</output-path>
     <root id="archive" name="countNum.jar">
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/src/Unity3D/META-INF/MANIFEST.MF" />
       </element>
       <element id="module-output" name="countNum" />
-      <element id="library" level="project" name="json-20140107" />
       <element id="extracted-dir" path="$PROJECT_DIR$/libs/json-20140107.jar" path-in-jar="/" />
+      <element id="library" level="project" name="json-20140107" />
     </root>
   </artifact>
 </component>

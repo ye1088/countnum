@@ -16,11 +16,41 @@ public class JaUtils {
 
 //        filterEmtyObject("D:\\工作目录\\chufa出发！英雄基地\\RES\\修改\\2\\txt\\il\\jp\\Assembly-CSharp.dll.il_out");
 
-        String ja_path = "D:\\工作目录\\xingsheng兴盛帝国\\res\\提取的\\txt\\app\\il\\jp\\Assembly-CSharp.dll.il_out";
+        String ja_path = "C:\\Users\\Administrator\\Desktop\\test";
 //        filterEmtyObject(ja_path);
 //        filterIsnotJa("D:\\工作目录\\xingsheng兴盛帝国\\res\\提取的\\Resource\\txt\\bin\\Data\\Managed\\il\\jp\\Assembly-CSharp.dll.il_out");
-        filterIsnotJa_jsonArray(ja_path);
+//        filterIsnotJa_jsonArray(ja_path);
+        jiaoYanJsonGeshi(ja_path);
 
+    }
+
+    public static void jiaoYanJsonGeshi(String dirs){
+        File[] files = bianLiDir(dirs);
+        for (File file:
+             files) {
+            try{
+                JSONObject json = new JSONObject(fileToString(file.getAbsolutePath()));
+            }catch (Exception e){
+                try {
+                    JSONArray json = new JSONArray(fileToString(file.getAbsolutePath()));
+                }catch (Exception e1){
+                    System.out.println(file.getAbsolutePath());
+                    e1.printStackTrace();
+                }
+            }
+        }
+
+
+    }
+
+
+    /**
+     * 遍历文件夹并返回一个文件列表
+     */
+
+    public static File[] bianLiDir(String dir){
+        File files = new File(dir);
+        return files.listFiles();
     }
 
     /**

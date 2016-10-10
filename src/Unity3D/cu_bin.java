@@ -14,10 +14,11 @@ import java.io.RandomAccessFile;
 public class cu_bin {
 
     public static void main(String[] args) throws Exception {
-//        String path = "I:\\code\\countnum\\out\\artifacts\\countNum_jar\\level2_.txt";
+//        String path = "D:\\工作目录\\suda苏打地牢\\res\\修改\\2\\libApplicationMain.so(2,43c0a0,03adac)_.txt";
 
 //        packMain(path);
         pack(args[0]);
+//        pack(path);
     }
 
 
@@ -81,9 +82,10 @@ public class cu_bin {
                 }
 
                 empty_flag = false;
-                byte[] fanyi_byte = fanyi.getBytes();
+                byte[] fanyi_byte = fanyi.getBytes("utf-8");
                 int enLen = jo.getInt("blen");
-                Long pos = jo.getLong("pos");
+                long pos = jo.getLong("pos");
+//                System.out.println("fanyi:"+fanyi_byte.length+" enlen:"+enLen);
                 if (fanyi_byte.length>enLen){
                     finp.close();
                     pack_fail(data_file);
@@ -97,7 +99,7 @@ public class cu_bin {
 
                 fout.seek(pos);
 //            fout.write(fanyi_byte);
-                if (fanyi_byte.length<enLen){
+                if (fanyi_byte.length<=enLen){
                     bu_kong_ge(fout,enLen-fanyi_byte.length,fanyi_byte);
                 }
 
@@ -113,12 +115,23 @@ public class cu_bin {
 
             }
         }catch (JSONException e){
+            System.out.println("Json格式有问题");
+            out_file.delete();
+
+
+        }catch (NumberFormatException e){
+            System.out.println("Json格式有问题");
+            out_file.delete();
+
+        }catch (Exception e){
+            System.out.println("未知异常");
+            out_file.delete();
+
+        }finally {
             finp.close();
             fout.close();
-            out_file.delete();
-            System.out.println("Json格式有问题");
             pack_fail(data_file);
-
+            System.out.println("beizhixingle");
         }
 
     }
@@ -146,10 +159,13 @@ public class cu_bin {
         while (j>0){
             fout.write(0x20);
             j--;
+
         }
         fout.write(fanyi_byte);
-        j = i%2+j;
+//        System.out.println(j);
+        j = i%2+i/2;
         while (j>0){
+//            System.out.println("后面的空格");
             fout.write(0x20);
             j--;
         }

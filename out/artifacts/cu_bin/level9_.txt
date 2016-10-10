@@ -1,0 +1,237 @@
+{
+	"offset":0,
+	"items":
+	[
+		{
+			"pos":148328,
+			"ori":"It's locked.{wi}I don't have the passcode to open it.",
+		"cz":"锁上了.{wi}我不知道打开它的密码",
+		"clen":18,
+		"blen":54
+		},
+		{
+			"pos":148688,
+			"ori":"What is this thing?{wi}Why is this a bit.. familiar?",
+		"cz":"这是什么?{wi}为什么有种..熟悉的感觉?",
+		"clen":18,
+		"blen":54
+		},
+		{
+			"pos":149296,
+			"ori":"Looks like old documents. They are all dusty, I'm not laying my hands on them.",
+			"cz":"老旧的文件.布满灰尘,我不想去碰它们.",
+			"clen":26,
+			"blen":78
+		},
+		{
+			"pos":149848,
+			"ori":"Books..? These are so old, the words are hardly readable.",
+			"cz":"书..?年代久远的书,部分字迹已经不可见.",
+			"clen":19,
+			"blen":58
+		},
+		{
+			"pos":150344,
+			"ori":"Just a normal plant. Why am I checking it out..",
+			"cz":"普通的植物.为什么我要查看它..",
+			"clen":16,
+			"blen":48
+		},
+		{
+			"pos":150824,
+			"ori":"A tripod, no camera..",
+			"cz":"三脚架,没有相机",
+			"clen":7,
+			"blen":22
+		},
+		{
+			"pos":151872,
+			"ori":"Good to see you are OK.",
+			"cz":"你没事太好了.",
+			"clen":7,
+			"blen":23
+		},
+		{
+			"pos":153704,
+			"ori":"A blue jacket.",
+			"cz":"蓝夹克",
+			"clen":4,
+			"blen":14
+		},
+		{
+			"pos":155112,
+			"ori":"They are all locked. No surprise.",
+			"cz":"全部锁上了.预料之中.",
+			"clen":11,
+			"blen":33
+		},
+		{
+			"pos":155384,
+			"ori":"Hey there.",
+			"cz":"这儿.",
+			"clen":3,
+			"blen":10
+		},
+		{
+			"pos":160696,
+			"ori":"You took your time.{wi}May I go now?",
+		"cz":"等了好久.{wi}我能走了吗?",
+		"clen":12,
+		"blen":37
+		},
+		{
+			"pos":161640,
+			"ori":"This way.",
+			"cz":"这边.",
+			"clen":3,
+			"blen":9
+		},
+		{
+			"pos":161776,
+			"ori":"What do you think you are doing?",
+			"cz":"你在做什么?",
+			"clen":10,
+			"blen":32
+		},
+		{
+			"pos":311344,
+			"ori":"You don't know where my friends are, do you?",
+			"cz":"你不知道我的朋友在哪,对吧?",
+			"clen":14,
+			"blen":44
+		},
+		{
+			"pos":315816,
+			"ori":"I want you to loosen up a bit, then tell me who you are.",
+			"cz":"我希望你放松点,然后告诉我你是谁.",
+			"clen":18,
+			"blen":56
+		},
+		{
+			"pos":316776,
+			"ori":"Then what are we doing here? I'm not under arrest, am I?",
+			"cz":"我们这是在干吗?我没被逮捕,对吧?",
+			"clen":18,
+			"blen":56
+		},
+		{
+			"pos":317736,
+			"ori":"My name is Vina Fong, 20 years old, senior year at Colbert College, psychology major.",
+			"cz":"我的名字是方薇娜,20岁,科尔伯特大学的大四学生,心理学专业.",
+			"clen":28,
+			"blen":85
+		},
+		{
+			"pos":318728,
+			"ori":"I'm 1/16 Chinese.",
+			"cz":"1/16中国血统",
+			"clen":5,
+			"blen":17
+		},
+		{
+			"pos":318872,
+			"ori":"You said \"surname\", you are not from America?",
+			"cz":"你说了 \"姓\",你不是美国人吧?",
+			"clen":15,
+			"blen":45
+		},
+		{
+			"pos":319824,
+			"ori":"Fong? That's a Chinese surname.",
+			"cz":"方?那是中国的姓吧.",
+			"clen":10,
+			"blen":31
+		},
+		{
+			"pos":320760,
+			"ori":"I.. I don't know.. several hours ago I think. I was in a car accident, when I woke up I was in the Higgins' house.",
+			"cz":"我..我不知道..我想..几个小时前,我遭遇了车祸,当我醒来就已经在希金斯的房子里了.",
+			"clen":38,
+			"blen":116
+		},
+		{
+			"pos":321000,
+			"ori":"I know what you are thinking.. but no, my friends and I have nothing to do with this Connor Brooke guy.",
+			"cz":"我知道你在想什么..不过我和我的朋友对康纳 布鲁克什么都没有做.",
+			"clen":34,
+			"blen":104
+		},
+		{
+			"pos":322008,
+			"ori":"He's found dead, murdered. Things like this don't happen in Pittsfield.{wi}When did you say you arrive here again?",
+		"cz":"他死了,死因谋杀.在皮茨菲尔德这种事情不常发生.{wi}你说你是什么时候到这儿的?",
+		"clen":38,
+		"blen":115
+		},
+		{
+			"pos":323032,
+			"ori":"No idea who he is. Why?",
+			"cz":"不知道他是谁.",
+			"clen":7,
+			"blen":23
+		},
+		{
+			"pos":323960,
+			"ori":"Do you know Connor Brooke?",
+			"cz":"你知道康纳 布鲁克?",
+			"clen":8,
+			"blen":26
+		},
+		{
+			"pos":324896,
+			"ori":"Good! I have nothing to hide. ",
+			"cz":"我没有什么隐瞒的.",
+			"clen":10,
+			"blen":30
+		},
+		{
+			"pos":325832,
+			"ori":"Only 1/16.{wi}\nBut I know a liar when I see one, I know when people are hiding things.",
+		"cz":"只有1/16.{wi}\n我能看出人们是否在撒谎,特别是在隐瞒什么事情的时候.",
+		"clen":28,
+		"blen":86
+		},
+		{
+			"pos":327800,
+			"ori":"I heard that all Chinese are crafty and tricky. How about you?",
+			"cz":"我听说所有中国人都很狡猾.你呢?",
+			"clen":20,
+			"blen":62
+		},
+		{
+			"pos":328904,
+			"ori":"Ms Fong, don't get all worked up. I have to be thorough, that's my job, especially in such a time as this.",
+			"cz":"方小姐,不要做多余的事情.推理总结是我的工作,特别是在这种时候.",
+			"clen":35,
+			"blen":106
+		},
+		{
+			"pos":331536,
+			"ori":"The Higgins, ya?",
+			"cz":"希金斯?",
+			"clen":5,
+			"blen":16
+		},
+		{
+			"pos":333288,
+			"ori":"I'll go look, you stay.",
+			"cz":"我去看看,你留下.",
+			"clen":7,
+			"blen":23
+		},
+		{
+			"pos":334216,
+			"ori":"What was that??",
+			"cz":"那是什么??",
+			"clen":5,
+			"blen":15
+		},
+		{
+			"pos":343248,
+			"ori":"What's taking him so long..",
+			"cz":"是什么让他去了那么久",
+			"clen":9,
+			"blen":28
+		}
+	]
+}
