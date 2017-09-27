@@ -1,5 +1,9 @@
 package Utils;
 
+import org.apache.poi.hssf.usermodel.HSSFCell;
+import org.apache.poi.hssf.usermodel.HSSFRow;
+import org.apache.poi.hssf.usermodel.HSSFSheet;
+import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.w3c.dom.Document;
@@ -412,7 +416,7 @@ public class Utils {
     //如果出现Exception in thread "main" org.json.JSONException: Duplicate key "offset"
     //这个异常，说明那个文本的所有东西都没有用
     public static void filterJsonTextEn() throws IOException {
-        String path = "C:\\Users\\Administrator\\Desktop\\记录\\en";
+        String path = "C:\\Users\\appchina\\Desktop\\test\\json";
         File file = new File(path);
         File[] files = file.listFiles();
         for (int i = 0; i < files.length; i++) {
@@ -443,7 +447,22 @@ public class Utils {
                         ||ori.contains("Layer.")||ori.contains("Floor1x2")||ori.contains("Wheelchair")||ori.contains("PannelLight")
                         ||ori.contains("Prefab")||ori.contains("Audio ")||ori.contains("MainLight")||ori.contains("LoadingSystemPrfab")
                         ||ori.contains(".UI")||ori.contains("BarUnit")||ori.contains("UnityEngine")||ori.contains("BarUnit")
-                        ||ori.contains("Combined Mesh")||ori.contains("LightSwitch")||ori.contains("Point Light")||ori.contains("BookB")
+                        ||ori.toLowerCase().contains("unlit")||ori.toLowerCase().contains("bumped")||ori.toLowerCase().contains("self-")||ori.toLowerCase().contains("raycast")
+                        ||ori.toLowerCase().contains("Trolley".toLowerCase())||ori.toLowerCase().contains("Archway".toLowerCase())||ori.toLowerCase().contains("Doorsill".toLowerCase())||ori.toLowerCase().contains("Column (".toLowerCase())
+                        ||ori.toLowerCase().contains("Fence".toLowerCase())||ori.toLowerCase().contains("Spawnpoint".toLowerCase())||ori.toLowerCase().contains("RiverCollider".toLowerCase())||ori.toLowerCase().contains("MeshMixer".toLowerCase())
+                        ||ori.toLowerCase().contains("Fence".toLowerCase())||ori.toLowerCase().contains("Spawnpoint".toLowerCase())||ori.toLowerCase().contains("RiverCollider".toLowerCase())||ori.toLowerCase().contains("MeshMixer".toLowerCase())
+                        ||ori.toLowerCase().contains("SpecsItem".toLowerCase())||ori.toLowerCase().contains("DeliveryPlaceItem".toLowerCase())||ori.toLowerCase().contains("ProjectStageItem".toLowerCase())||ori.toLowerCase().contains("Button".toLowerCase())
+                        ||ori.toLowerCase().contains("KamniLOAD".toLowerCase())||ori.toLowerCase().contains("Tree1".toLowerCase())||ori.toLowerCase().contains("GarbuzLOAD".toLowerCase())||ori.toLowerCase().contains("BenchWithoutBackrestAndPadded".toLowerCase())
+                        ||ori.toLowerCase().contains("KamniLOAD".toLowerCase())||ori.toLowerCase().contains("KustiGoro".toLowerCase())||ori.toLowerCase().contains("PodsolnuhLOAD".toLowerCase())||ori.toLowerCase().contains("Turnik".toLowerCase())
+                        ||ori.toLowerCase().contains("KillBoardChain".toLowerCase())||ori.toLowerCase().contains("KustiGoro".toLowerCase())||ori.toLowerCase().contains("PodsolnuhLOAD".toLowerCase())||ori.toLowerCase().contains("AudioCont".toLowerCase())
+                        ||ori.toLowerCase().contains("Title (".toLowerCase())||ori.toLowerCase().contains("PopUp".toLowerCase())||ori.toLowerCase().contains("DeathCount".toLowerCase())||ori.toLowerCase().contains("starlook".toLowerCase())
+                        ||ori.toLowerCase().contains("CorridorBlo".toLowerCase())||ori.toLowerCase().contains("ShadowFog".toLowerCase())||ori.toLowerCase().contains("Attack sound".toLowerCase())||ori.toLowerCase().contains("Visual sensor".toLowerCase())
+                        ||ori.toLowerCase().contains("Bath (".toLowerCase())||ori.toLowerCase().contains("Depressed (".toLowerCase())||ori.toLowerCase().contains("Closet (".toLowerCase())||ori.toLowerCase().contains("WhiteImg".toLowerCase())
+                        ||ori.toLowerCase().contains("TravaPak".toLowerCase())||ori.toLowerCase().contains("PaporotnikLOAD".toLowerCase())||ori.toLowerCase().contains("HumanLDigit".toLowerCase())||ori.toLowerCase().contains("HumanLForearm".toLowerCase())
+                        ||ori.toLowerCase().contains("walllamp")||ori.toLowerCase().contains("corridorblockstraight")||ori.toLowerCase().contains("sink (")||ori.toLowerCase().contains("panels")
+                        ||ori.toLowerCase().contains("fx")||ori.toLowerCase().contains("globalsaund")||ori.toLowerCase().contains("lamp (")||ori.toLowerCase().contains("woodendoorwaythick")
+                        ||ori.toLowerCase().contains("parallax")||ori.toLowerCase().contains("particles")||ori.toLowerCase().contains("hidden/")||ori.toLowerCase().contains("nature/")
+                        ||ori.contains("Combined Mesh")||ori.contains("LightSwitch")||ori.contains("Point Light")||ori.contains("BookB")&&(!ori.contains("’"))
                         ||ori.contains("Outlet")||ori.contains("New Text")||ori.contains("Main Camera")||ori.contains("New Text")
                         ||ori.contains("LampPoint")||ori.contains("Reflection Probe")||ori.contains("HumanRDigit")||ori.contains("Your result")
                         ||ori.contains("Cube (1)")||ori.contains("BreakingCrate")||ori.contains("Teleport1")||ori.contains("Vent ")
@@ -486,14 +505,17 @@ public class Utils {
                     j--;
                 }
             }
-            writeNewFile(files[i].getAbsolutePath() + "_n", jsonFormat(jo.toString()));//jo.toString());
+            if(ja.length()!=0){
+                writeNewFile(files[i].getAbsolutePath() + "_n", jo.toString());//jo.toString());jsonFormat(jo.toString())
+            }
+
 
         }
     }
 
     //这个是过滤il文件的英文文本的
     public static void filterIlJsonTextEn() throws IOException {
-        String path = "C:\\Users\\Administrator\\Desktop\\记录\\en";
+        String path = "C:\\Users\\appchina\\Desktop\\test\\json";
         File file = new File(path);
         File[] files = file.listFiles();
         for (int i = 0; i < files.length; i++) {
@@ -553,6 +575,7 @@ public class Utils {
                         ||ori.contains("DOWN")||ori.contains("TEMP")
                         ||ori.contains("Text")||ori.contains("Pressed")||ori.contains("SOFTWARE")
                         ||ori.contains("Normal")||ori.contains("Canvas")||ori.contains("Camera")
+                        ||ori.toLowerCase().contains("object type")||ori.toLowerCase().contains("jsonobject")||ori.toLowerCase().contains("requestrefreshserver")
                         ||ori.startsWith("a")||ori.startsWith("s")||ori.startsWith("d")||ori.startsWith("f")
                         ||ori.startsWith("g")||ori.startsWith("h")||ori.startsWith("j")||ori.startsWith("k")
                         ||ori.startsWith("l")||ori.startsWith("q")||ori.startsWith("w")||ori.startsWith("e")
@@ -580,7 +603,7 @@ public class Utils {
     }
 
     //将数据写入新的文件中（像改变后的json文本等）
-    private static void writeNewFile(String filePath, String jsonString) throws IOException {
+    public static void writeNewFile(String filePath, String jsonString) throws IOException {
         BufferedWriter bw = new BufferedWriter(new FileWriter(filePath));
         bw.write(jsonString);
         bw.flush();
@@ -593,7 +616,7 @@ public class Utils {
      * @return
      */
     public static void filterSmaliJsonTxt() throws IOException {
-        String path = "D:\\工作目录\\daxue大学足球经理";
+        String path = "C:\\Users\\appchina\\Desktop\\test\\filter_smali";
         File file = new File(path);
         for (File f : file.listFiles()){
             JSONArray mJa = new JSONArray(fileToString(f.getAbsolutePath()));
@@ -682,7 +705,7 @@ public class Utils {
                 }
 
             }
-            writeNewFile(f.getAbsolutePath()+"_n",jsonFormatForSmali(mJa.toString()));
+            writeNewFile(f.getAbsolutePath()+"_n",mJa.toString());//jsonFormatForSmali(mJa.toString())
         }
     }
 
@@ -690,7 +713,7 @@ public class Utils {
      * 这个是smali文件翻译好之后，将不需要翻译的文本全删掉
      */
     public static void filterSmaliJsonEndTxt() throws IOException {
-        String path = "C:\\Users\\Administrator\\Desktop\\记录\\en";
+        String path = "C:\\Users\\appchina\\Desktop\\test\\json";
         File file = new File(path);
         for (File f : file.listFiles()){
             JSONArray mJa = new JSONArray(fileToString(f.getAbsolutePath()));
@@ -720,7 +743,7 @@ public class Utils {
                 }
 
             }
-            writeNewFile(f.getAbsolutePath()+"_n",jsonFormatForSmali(mJa.toString()));
+            writeNewFile(f.getAbsolutePath()+"_n",mJa.toString());//jsonFormatForSmali(mJa.toString())
         }
     }
 
@@ -1375,6 +1398,95 @@ public class Utils {
         }
         return tmp;
     }
+
+    public static int yiwei(int num){
+        int i = 0;
+        int tmp = 0;
+        int result = 0;
+
+        while (i<4){
+            tmp  = num & 0xff;
+            result = result << 8 ;
+            result += tmp;
+            num = num >> 8;
+            i++;
+        }
+
+        return result;
+    }
+
+
+
+    public static void copySrcFile2Dst(String srcFile,String dstFile){
+        try {
+            FileInputStream fis = new FileInputStream(new File(srcFile));
+            FileOutputStream fos = new FileOutputStream(new File(dstFile));
+
+            byte[] buff = new byte[1024 * 1024];
+            int len = -1;
+            while ((len = fis.read(buff))!=-1){
+                fos.write(buff,0,len);
+            }
+
+            fis.close();
+            fos.flush();
+            fos.close();
+
+
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+    }
+
+    // txt 转 excel
+    public static void txtToExcel(String txtPath,String split_fuhao) throws IOException {
+        BufferedReader br = new BufferedReader(new FileReader(new File(txtPath)));
+        HSSFWorkbook hwb = new HSSFWorkbook();
+        // sheet 对应一个工作页的名字,这里可以随便设置
+        HSSFSheet sheet = hwb.createSheet("pldrxkxxmb");
+        HSSFRow firstrow = null;
+        HSSFCell[] firstcell = null;
+        String str = new String(new byte[1],"utf-8");
+        int i = 0;
+        while ((str = br.readLine()) != null) {
+            // 文件是以什么分割的
+            String[] sing_txts = str.split(split_fuhao);
+
+            //创建第 i 行
+            firstrow = sheet.createRow(i);
+            // 设置 列数
+            firstcell = new HSSFCell[sing_txts.length];
+
+            for (int j = 0; j < sing_txts.length; j++) {
+                firstcell[j] = firstrow.createCell(j);
+                firstcell[j].setCellValue(sing_txts[j]);
+            }
+
+
+
+            i++;
+        }
+        OutputStream out = new FileOutputStream(txtPath+".xls");
+        hwb.write(out);
+        out.close();
+        br.close();
+
+    }
+
+
+/**
+ *  对齐 16进制数
+ */
+public static int align(int strLen){
+    if (strLen%4==0){
+        return 0;
+    }
+    return 4-strLen%4;
+}
+
 
 
 }

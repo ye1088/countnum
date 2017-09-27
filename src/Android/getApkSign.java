@@ -17,13 +17,13 @@ public class getApkSign {
 
     public static void main(String[] args) throws IOException {
 
-        String path = "D:\\Documents\\Tencent Files\\1217713349\\FileRecv\\The Sandbox 2.apk";//apk的路径
+        String path = "G:\\Project\\1217713349\\FileRecv\\再见吧武器.apk";//apk的路径
 
         List<String> list = getSignaturesFromApk(path);
         // for (String s : list) {
         // System.out.println(s);
         // }
-        System.out.println(list.get(0));
+        System.out.println(list.get(0));//控制台输出签名字符串
     }
 
     /**

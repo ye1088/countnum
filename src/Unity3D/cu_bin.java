@@ -14,10 +14,11 @@ import java.io.RandomAccessFile;
 public class cu_bin {
 
     public static void main(String[] args) throws Exception {
-//        String path = "D:\\工作目录\\suda苏打地牢\\res\\修改\\2\\libApplicationMain.so(2,43c0a0,03adac)_.txt";
+//        String path = "F:\\汉化\\suiji随机空间\\res\\修改\\测试1修改好\\随机空间测试1\\测试1\\文本2\\level2_.txt";
 
 //        packMain(path);
-        pack(args[0]);
+//        args[0] = "F:\\汉化\\youjiu悠久的空岛\\res\\修改\\测试3\\libMyGame.so(1,10f8630,38bd4)_.txt";
+        pack("F:\\汉化\\youjiu悠久的空岛\\res\\修改\\测试3\\libMyGame.so(1,10f8630,38bd4)_.txt");
 //        pack(path);
     }
 
@@ -104,7 +105,6 @@ public class cu_bin {
                 }
 
 
-
             }
 
             fout.close();
@@ -114,22 +114,16 @@ public class cu_bin {
                 (new File(path)).delete();
 
             }
-        }catch (JSONException e){
-            System.out.println("Json格式有问题");
-            out_file.delete();
-
-
-        }catch (NumberFormatException e){
-            System.out.println("Json格式有问题");
-            out_file.delete();
 
         }catch (Exception e){
             System.out.println("未知异常");
+            fout.close();
+            finp.close();
             out_file.delete();
 
         }finally {
-            finp.close();
-            fout.close();
+
+
             pack_fail(data_file);
             System.out.println("beizhixingle");
         }
@@ -156,19 +150,23 @@ public class cu_bin {
     //字符长度不够 填补空格
     private static void bu_kong_ge(RandomAccessFile fout, int i, byte[] fanyi_byte) throws IOException {
         int j = i/2;
-        while (j>0){
+        //补前面的空格用的
+//        while (j>0){
+//            fout.write(0x20);
+//            j--;
+//
+//        }
+        while (i>0){
+//            System.out.println("后面的空格");
             fout.write(0x20);
-            j--;
-
+            i--;
         }
         fout.write(fanyi_byte);
 //        System.out.println(j);
-        j = i%2+i/2;
-        while (j>0){
-//            System.out.println("后面的空格");
-            fout.write(0x20);
-            j--;
-        }
+        //补前面的空格用的
+//        j = i%2+i/2;
+        //如果要直接在后面补空格的话,那么 while中的j要改成i
+
     }
 
 }
